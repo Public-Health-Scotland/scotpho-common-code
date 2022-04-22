@@ -18,4 +18,5 @@ What things we could include?
 * Examples with SMR00, number of appointments, types of clinician, DNAs...
 * Calculations of rates, EASRs and rates
 * Templates for IRs, function to create IR structure/code
-* Link here to SQL cheatsheet
+
+[Link to PHS SQL cheatsheet](https://github.com/Public-Health-Scotland/R-Resources/blob/master/SQL%20in%20R%20-%20cheatsheet.R):
