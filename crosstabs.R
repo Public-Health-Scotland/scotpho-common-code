@@ -9,3 +9,7 @@ xtabs(df$A~df$B)
 
 # Possible to add multiple columns to the table 
 xtabs(population$pop~population$year+population$hb2019name)
+
+# These two functions can be useful in different ways
+xtabs(iris$Sepal.Length ~ iris$Species)
+table(iris$Sepal.Length, iris$Species)
