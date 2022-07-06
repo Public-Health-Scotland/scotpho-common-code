@@ -6,8 +6,6 @@
 ###############################################.
 library(dplyr) #data manipulation
 library(odbc) #odbc connections
-library(readr)
-library(tidyr) #for wide to long changes
 library(lubridate) #for dates
 library(janitor) #for clean-up functions
 
