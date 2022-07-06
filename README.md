@@ -9,7 +9,6 @@ What things we could include?
 * Creating flags for different diagnoses
 * Calculating episodes, admissions and patients
 * Calculating multiple admissions in one year
-* Length of stay calculations
 * Emergency/planned admissions
 * Working with the different geography levels from HB to DZ
 * Working with different time periods, calculations of calenda and financial year, but also, month, week, day
