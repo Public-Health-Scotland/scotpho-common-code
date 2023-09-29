@@ -15,10 +15,13 @@ channel <- suppressWarnings(dbConnect(odbc(),  dsn="SMRA",
                                       pwd=.rs.askForPassword("SMRA Password:")))
 
 
-#LIST tables available through channel connection
-dbListTables(channel)[1:100]
+#List tables available through channel connection
+#Note that command below only shows table objects and not SQL views 
+#[1:200] restricts the list returned to tables 1 thru 200
+dbListTables(channel)[1:250]
 
 #List objects available from "Analysis" schema (smr01, gro deaths, smr00 are all views within this schema)
+#Schemas are groups of objects associated with a particular database
 odbcListObjects(channel,  schema="ANALYSIS") 
 
 #List headers for a table/view
